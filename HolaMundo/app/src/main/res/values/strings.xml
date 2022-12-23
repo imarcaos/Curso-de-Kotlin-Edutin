@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Hola Mundo</string>
+    <string name="hola">HOLA KOTLIN CON TEXVIEW</string>
 </resources>

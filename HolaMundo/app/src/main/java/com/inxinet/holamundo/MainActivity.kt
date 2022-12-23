@@ -9,8 +9,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val textoBueno = findViewById<TextView>(R.id.texto_bueno)
-
-        textoBueno.text = "AQUI ESTOY USANDO UN TEXT VIEW"
     }
 }
