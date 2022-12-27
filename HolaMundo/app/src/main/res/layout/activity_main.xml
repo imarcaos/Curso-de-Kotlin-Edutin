@@ -8,34 +8,33 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/texto_bueno"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="@string/hola"
-        android:textSize="30sp" />
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Button"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="56dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ESTE ES UN BOTON" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="TextView" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Esto es un Texto" />
 
-    <Button
-        android:id="@+id/button2"
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="Button" />
+        android:orientation="horizontal">
+
+    </LinearLayout>
 </LinearLayout>
