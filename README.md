@@ -4,6 +4,3 @@
 
 <br><br>
 Aos visitantes deste git: ele serve para registar os exercícios que vou praticando no curso para uma eventual consulta, se necessário. Se lhe for útil bom proveito e obrigado pela visita.
-
- - Unidad 1 - Introducción a Kotlin
- - - 1.6 - Cómo crear un proyecto básico de Kotlin?
